@@ -4,6 +4,8 @@ import { HelmetDatoCms } from 'gatsby-source-datocms'
 import Img from 'gatsby-image'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import AuthCluster from './AuthCluster';
+import TokenData from './TokenData';
 
 export default ({ data }) => (
   <Layout>
